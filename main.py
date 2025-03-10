@@ -23,7 +23,7 @@ button_rect = pygame.Rect(150, 500, 200, 50)
 # Game variables
 board = np.full((3, 3), '', dtype=str)
 player_moves = {'X': [], 'O': []}
-current_player = 'X'
+current_player = 'O'
 game_over = False
 
 def draw_board():
